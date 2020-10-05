@@ -1,7 +1,15 @@
+.debug{
+  width: 100%;
+  height: 400px;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: center;
+}
+
 html{
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h1, h2, h3{
@@ -34,14 +42,17 @@ body{
 .top-header h3, nav{
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 90px;
+  line-height: 80px;
   padding: 0, 1rem;
 }
 
 .top-header h3{
   font-size: 1.8rem;
 }
-
+.top-header > .container > .row div:last-child{
+  text-align: right;
+  line-height: 80px;
+}
 
 .banner{
   background-color: #1abc9c;
@@ -54,6 +65,7 @@ body{
 }
 .banner h1{
   font-size: 3.6rem;
+  padding-bottom: 1rem;
 }
 .banner div, img, h1, p{
   text-align: center;
@@ -61,6 +73,7 @@ body{
 
 .graphic-divider{
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 .graphic-divider div{
   display: inline-block;
@@ -79,12 +92,12 @@ body{
   margin: 1rem;
 }
 
-/* SECTION 01*/
-/* TITTLE*/
-.portfolio h1{
+/* SECTION 01 - PORTFOLIO*/
+section h1{
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
+
 .portfolio .graphic-divider-line{
   border: 2px solid #2c3e50;
 }
@@ -93,4 +106,72 @@ body{
   width: 100%;
   border-radius: 15px;
   margin: 1rem 0;
+}
+
+/* SECTION 02 - ABOUT*/
+.about{
+  background-color: #1abc9c;
+  color: white;
+}
+
+.about .graphic-divider-line{
+  border: 2px solid white;
+}
+
+.about p{
+  font-size: 20px;
+  text-align: left;
+  padding: 2rem 4rem;
+}
+
+.free-download-button{
+  border: 1px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* SECTION 03 - CONTACT ME*/
+
+.contact-me .graphic-divider-line{
+  border: 2px solid #2c3e50;
+}
+
+.top-footer{
+  background-color: #2c3e50;
+  color: white;
+  width: 100%;
+  height: 300px;
+}
+
+.bottom-footer{
+  background-color: #1a252f;
+  color: white;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up)
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up)
+@media (min-width: @screen-md-min) {
+  html{
+    font-size: 20px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up)
+@media (min-width: @screen-lg-min) {
+  html{
+    font-size: 20px;
+  }
 }
