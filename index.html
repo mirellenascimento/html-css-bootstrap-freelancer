@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
     <header>
-      <div class="top-header">
+      <div class="top-header navbar navbar-fixed-top">
         <div class="container">
           <div class="row">
             <div class="col-xs-9 col-sm-9 col-md-6 col-lg-6">
@@ -20,32 +19,31 @@
             <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
               <nav>
                 <ul class="list-inline text-right">
-                  <li>PORTFOLIO</li>
-                  <li>ABOUT</li>
-                  <li>CONTACT</li>
+                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">CONTACT</a></li>
                 </ul>
               </nav>
             </div>
             <div class="col-xs-3 col-sm-3 hidden-md hidden-lg">
-              <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">MENU <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="banner">
+      <div class="jumbotron">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-8 col-xs-offset-2">
-              <img src="img/banner-avatar.svg" alt="banner avatar">
-              <h1>START BOOTSTRAP</h1>
-              <div class="graphic-divider">
-                <div class="graphic-divider-line"></div>
-                <div class="graphic-divider-icon"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="graphic-divider-line"></div>
-              </div>
-              <p>Graphic Artist - Web Designer - Illustrator</p>
-            </div>
+          <img src="img/banner-avatar.svg" alt="banner avatar">
+          <h1>START BOOTSTRAP</h1>
+          <div class="graphic-divider">
+            <div class="graphic-divider-line white"></div>
+            <div class="graphic-divider-icon"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></div>
+            <div class="graphic-divider-line white"></div>
           </div>
+          <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </div>
     </header>
@@ -53,15 +51,11 @@
 <!-- Section PORTFOLIO-->
       <section class="portfolio">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-3">
-              <h1>PORTFOLIO</h1>
-              <div class="graphic-divider">
-                <div class="graphic-divider-line"></div>
-                <div class="graphic-divider-icon"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="graphic-divider-line"></div>
-              </div>
-            </div>
+          <h1>PORTFOLIO</h1>
+          <div class="graphic-divider">
+            <div class="graphic-divider-line navy"></div>
+            <div class="graphic-divider-icon"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></div>
+            <div class="graphic-divider-line navy"></div>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -88,16 +82,12 @@
 <!-- Section ABOUT-->
       <section class="about">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-3">
-              <h1>ABOUT</h1>
-              <div class="graphic-divider">
-                <div class="graphic-divider-line"></div>
-                <div class="graphic-divider-icon"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="graphic-divider-line"></div>
+          <h1>ABOUT</h1>
+          <div class="graphic-divider">
+            <div class="graphic-divider-line white"></div>
+            <div class="graphic-divider-icon"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></div>
+            <div class="graphic-divider-line white"></div>
               </div>
-            </div>
-          </div>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
               <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
@@ -106,12 +96,8 @@
               <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sx-12">
-              <div class="free-download-button">
-                <h5>Free Donwload!</h5>
-              </div>
-            </div>
+          <div class="free-download-button">
+            <a href="#" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Free Download!</a>
           </div>
         </div>
       </section>

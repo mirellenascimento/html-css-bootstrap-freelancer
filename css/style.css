@@ -5,7 +5,7 @@
   display: inline-block;
   text-align: center;
 }
-
+/*GENERAL*/
 html{
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif;
@@ -31,7 +31,7 @@ p{
 body{
   background-color: white;
 }
-
+/*HEADER TOP*/
 .top-header{
   background-color: #2c3e50;
   color: white;
@@ -47,37 +47,55 @@ body{
   padding: 0, 1rem;
 }
 
+.top-header nav li a{
+  color: white;
+}
+
 .top-header h3{
   font-size: 1.8rem;
 }
+
 .top-header > .container > .row div:last-child{
   text-align: right;
   line-height: 80px;
 }
 
-.banner{
-  background-color: #1abc9c;
+.top-header button{
   color: white;
-  padding: 6rem;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  vertical-align: middle;
 }
 
-.banner img{
+/*HEADER BANNER*/
+.jumbotron{
+  background-color: #1abc9c;
+  color: white;
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+
+.jumbotron img{
   max-width: 240px;
 }
-.banner h1{
+.jumbotron h1{
   font-size: 3.6rem;
   padding-bottom: 1rem;
 }
-.banner div, img, h1, p{
+.jumbotron div, img, h1, p{
   text-align: center;
 }
 
+/*GRAPHIC DIVIDER*/
 .graphic-divider{
   text-align: center;
   padding-bottom: 1.5rem;
 }
 .graphic-divider div{
   display: inline-block;
+  vertical-align: middle;
 }
 
 .graphic-divider-line{
@@ -86,6 +104,18 @@ body{
   border: 2px solid white;
   border-radius: 15px;
   margin: 0 1rem 0.5rem 1rem;
+}
+
+.graphic-divider-icon{
+  font-size: 40px;
+}
+
+.white{
+  color: white;
+}
+
+.navy{
+  color: #2c3e50;
 }
 
 .banner p{
@@ -97,10 +127,6 @@ body{
 section h1{
   padding-top: 2rem;
   padding-bottom: 1rem;
-}
-
-.portfolio .graphic-divider-line{
-  border: 2px solid #2c3e50;
 }
 
 .portfolio img{
@@ -115,22 +141,22 @@ section h1{
   color: white;
 }
 
-.about .graphic-divider-line{
-  border: 2px solid white;
-}
-
 .about p{
   font-size: 20px;
   text-align: left;
   padding: 2rem 4rem;
 }
-
 .free-download-button{
-  border: 1px solid white;
-  border-radius: 5px;
-  display: inline-block;
   text-align: center;
+  padding-bottom: 5rem;
 }
+
+.free-download-button .btn{
+  background-color: #1abc9c;
+  color: white;
+  border: 2px solid white;
+}
+
 
 /* SECTION 03 - CONTACT ME*/
 
