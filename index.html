@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, inicial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@700&display=swap" rel="stylesheet">   </head>
   <body>
     <header>
       <div class="top-header navbar navbar-fixed-top">
@@ -39,9 +38,9 @@
           <img src="img/banner-avatar.svg" alt="banner avatar">
           <h1>START BOOTSTRAP</h1>
           <div class="graphic-divider">
-            <div class="graphic-divider-line white"></div>
+            <div class="graphic-divider-line"></div>
             <div class="graphic-divider-icon"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></div>
-            <div class="graphic-divider-line white"></div>
+            <div class="graphic-divider-line"></div>
           </div>
           <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
@@ -84,9 +83,9 @@
         <div class="container">
           <h1>ABOUT</h1>
           <div class="graphic-divider">
-            <div class="graphic-divider-line white"></div>
+            <div class="graphic-divider-line"></div>
             <div class="graphic-divider-icon"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></div>
-            <div class="graphic-divider-line white"></div>
+            <div class="graphic-divider-line"></div>
               </div>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -104,21 +103,35 @@
 <!-- Section CONTACT ME-->
       <section class="contact-me">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-3">
-              <h1>CONTACT ME</h1>
-              <div class="graphic-divider">
-                <div class="graphic-divider-line"></div>
-                <div class="graphic-divider-icon"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="graphic-divider-line"></div>
-              </div>
-            </div>
+          <h1>CONTACT ME</h1>
+          <div class="graphic-divider">
+            <div class="graphic-divider-line navy"></div>
+            <div class="graphic-divider-icon"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></div>
+            <div class="graphic-divider-line navy"></div>
           </div>
           <div class="row">
-            <div class="col-xs-8 col-xs-offset-2">
-              <div class="form debug">
-
-              </div>
+            <div class="col-xs-10 col-xs-offset-1">
+              <form>
+                <div class="form-group">
+                  <label for="ImputName"></label>
+                  <input type="text" class="form-control" id="ImputName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="ImputEmail"></label>
+                  <input type="email" class="form-control" id="ImputEmail" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                  <label for="ImputPhoneNumber"></label>
+                  <input type="text" class="form-control" id="ImputPhoneNumber" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                  <label for="ImputMessage"></label>
+                  <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+                </div>
+                <div class="send-button">
+                  <a href="#" class="btn btn-default btn-lg" role="button">Send</a>
+                </div>
+              </form>
             </div>
           </div>
         </div>
